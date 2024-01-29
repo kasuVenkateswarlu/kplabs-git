@@ -2,7 +2,7 @@ provider "aws" {
   region ="us-west-2"
 }
 
-resourse "ec2_instance" "myec2" {
+resource "ec2_instance" "myec2" {
   ami = "ami-082b5a644766e0e6f"
   instance_type = "t2.micro"
 }
